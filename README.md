@@ -6,7 +6,7 @@ Official Implementation for [SLR: Learning Quadruped Locomotion without Privileg
 
 ### 🌟 2024 Conference on Robot Learning
 
-This codebase is licensed under the [CC BY-NC 4.0 license](https://creativecommons.org/licenses/by-nc/4.0/deed.en), with inherited licenses from [Legged Gym](training/legged_gym) and [RSL RL](training/rsl_rl) by *ETH Zurich, Nikita Rudin* and *NVIDIA CORPORATION & AFFILIATES*. Commercial use of the material is prohibited.
+This codebase is licensed under the [CC BY-NC 4.0 license](https://creativecommons.org/licenses/by-nc/4.0/deed.en), with inherited licenses from [Legged Gym](training/legged_gym) and [RSL RL](training/rsl_rl) by _ETH Zurich, Nikita Rudin_ and _NVIDIA CORPORATION & AFFILIATES_. Commercial use of the material is prohibited.
 
 Please read through the entire README before cloning the repo.
 
@@ -28,7 +28,7 @@ conda activate slr
 pip3 install torch==1.10.0+cu113 torchvision==0.11.1+cu113 torchaudio==0.10.0+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
 ```
 
-------
+---
 
 #### 2. Install Isaac Gym (Preview 4 release)
 
@@ -44,7 +44,7 @@ Test the installation by running an example:
 cd examples && python 1080_balls_of_solitude.py
 ```
 
-------
+---
 
 #### 3. Clone this repository and install `rsl_rl`
 
@@ -58,10 +58,12 @@ Ensure you have installed the following packages:
 
 ```
 pip install numpy==1.21  # Must be < 1.24, >1.20
-pip install wandb
+pip install tensorboard
+pip install setuptools==59.5.0
+
 ```
 
-------
+---
 
 #### 4. Try Training the Model
 
@@ -71,7 +73,7 @@ You can use the `--headless` flag to disable the GUI. Press "v" to pause/resume 
 python train.py
 ```
 
-------
+---
 
 #### 5. Play the Trained Policy
 
@@ -79,7 +81,7 @@ python train.py
 python play.py
 ```
 
-------
+---
 
 ### 📑 Citation
 
@@ -96,7 +98,7 @@ url={https://openreview.net/forum?id=RMkdcKK7jq}
 }
 ```
 
-------
+---
 
 ### 👏 Acknowledgements
 
