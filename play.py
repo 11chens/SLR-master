@@ -61,7 +61,7 @@ def play(args):
                                             num_actions=env.num_actions,
                                             **policy_cfg_dict)
     print(policy)
-    model_dict = torch.load(os.path.join(ROOT_DIR, 'logs/rough_go2/Dec02_02-21-09_slr/model_10000.pt'), map_location='cuda:0')
+    model_dict = torch.load(os.path.join(ROOT_DIR, 'logs/rough_go2/Dec02_13-28-29_slr/model_10000.pt'), map_location='cuda:0')
     policy.load_state_dict(model_dict['model_state_dict'])
     policy.eval()
     # policy = policy.to(env.device)

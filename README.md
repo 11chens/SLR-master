@@ -25,7 +25,7 @@ Please read through the entire README before cloning the repo.
 ```bash
 conda create -n slr python=3.8
 conda activate slr
-pip install torch==2.4.1 torchvision==0.15.3 torchaudio==2.0.2
+pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
 ```
 
 ---
@@ -55,7 +55,7 @@ git clone git@github.com:11chens/SLR-master.git
 Ensure you have installed the following packages:
 
 ```
-pip install .
+cd SLR-master && pip install .
 
 ```
 
