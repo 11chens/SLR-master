@@ -1,0 +1,18 @@
+# IDEs
+.idea
+
+# wandb
+wandb/
+
+# builds
+*.egg-info
+
+# cache
+__pycache__
+.pytest_cache
+
+# vs code
+.vscode
+
+# logs
+logs/
