@@ -251,7 +251,7 @@ class Go2RoughCfgPPO( LeggedRobotCfgPPO ):
         policy_class_name = 'ActorCriticSLR'
         runner_class_name = 'OnPolicyRunner'
         algorithm_class_name = 'PPO'
-        max_iterations = 10000
+        max_iterations = 50000
         num_steps_per_env = 24
         resume = False
         resume_path = ''

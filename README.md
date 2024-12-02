@@ -56,7 +56,6 @@ Ensure you have installed the following packages:
 
 ```
 cd SLR-master && pip install .
-
 ```
 
 ---

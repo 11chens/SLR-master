@@ -3,7 +3,6 @@ import os
 from datetime import datetime
 from configs.go2_config import Go2RoughCfg, Go2RoughCfgPPO
 
-
 import isaacgym
 from utils.helpers import get_args
 from envs import LeggedRobot
