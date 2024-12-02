@@ -103,5 +103,6 @@ This project leverages components from several amazing open-source repositories:
 - [RSL RL](https://github.com/leggedrobotics/rsl_rl)
 - [Isaac Gym](https://developer.nvidia.com/isaac-gym)
 - [LocomotionWithNP3O](https://github.com/zeonsunlightyu/LocomotionWithNP3O)
+- [ABS](https://github.com/LeCAR-Lab/ABS)
 
 Thanks to the authors and contributors for their work!
