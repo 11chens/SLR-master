@@ -25,7 +25,7 @@ Please read through the entire README before cloning the repo.
 ```bash
 conda create -n slr python=3.8
 conda activate slr
-pip3 install torch==1.10.0+cu113 torchvision==0.11.1+cu113 torchaudio==0.10.0+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
+pip install torch==2.4.1 torchvision==0.15.3 torchaudio==2.0.2
 ```
 
 ---
@@ -46,20 +46,16 @@ cd examples && python 1080_balls_of_solitude.py
 
 ---
 
-#### 3. Clone this repository and install `rsl_rl`
+#### 3. Clone this repository and install packages:
 
 ```
 git clone git@github.com:11chens/SLR-master.git
-cd rsl_rl && pip install -e
-cd ../legged_gym && pip install -e .
 ```
 
 Ensure you have installed the following packages:
 
 ```
-pip install numpy==1.21  # Must be < 1.24, >1.20
-pip install tensorboard
-pip install setuptools==59.5.0
+pip install .
 
 ```
 

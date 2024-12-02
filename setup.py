@@ -1,19 +1,16 @@
-from setuptools import find_packages
-from distutils.core import setup
+from setuptools import setup, find_packages
 
 setup(
-    name='legged_gym',
-    version='1.0.0',
-    author='Nikita Rudin',
-    license="BSD-3-Clause",
+    name='SLR-master',  
+    version='0.1',
     packages=find_packages(),
-    author_email='rudinn@ethz.ch',
-    description='Isaac Gym environments for Legged Robots',
-    python_requires='>=3.6',
-    install_requires=["isaacgym",
-                      "matplotlib",
-                      "torch>=1.4.0",
-                      "torchvision>=0.5.0",
-                      "numpy>=1.16.4"
-            ]
+    install_requires=[
+        'isaacgym',
+        'numpy==1.21',
+        'tensorboard',
+        'setuptools==59.5.0',
+        'matplotlib',
+        'opencv-contrib-python',
+    ],
+    python_requires='>=3.6', 
 )
